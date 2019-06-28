@@ -278,8 +278,6 @@ public class MainActivity extends BaseActivity implements View.OnClickListener
         poolMap.put("homework", pool.load(this, R.raw.homework, 1));
         poolMap.put("notice", pool.load(this, R.raw.notice, 1));
 
-
-        poolMap.put("notice", pool.load(this, R.raw.notice, 1));
     }
     private int index=0;
     private void addTask(){
