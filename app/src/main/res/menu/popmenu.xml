@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item android:id="@+id/menumessage"
+        android:title="消息"
+        android:icon="@drawable/qingjia"
+        />
+    <item android:id="@+id/menuhomework"
+        android:title="作业"
+        android:icon="@drawable/homework2"/>
+</menu>

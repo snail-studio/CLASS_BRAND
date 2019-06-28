@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#6D6F72</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="btntext">#ffffff</color>
+    <color name="logintext">#555555</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorRed">#ff0000</color>
+    <color name="colorGreen">#00ff00</color>
+    <color name="colorBlack">#000000</color>
+    <color name="geli">#4B4646</color>
+    <color name="colorOrange">#FF5722</color>
+    <color name="colorlightG">#8BC34A</color>
+    <color name="colorlightZ">#673AB7</color>
+    <color name="qiandao">#FF9800</color>
+    <color name="qiantui">#009688</color>
+    <color name="zuoye">#7A94F8</color>
+    <color name="renmingbg">#1C7CF0</color>
+    <color name="card">#C4CEDB</color>
+
+    <color name="nomal">#2DBD59</color>
+    <color name="qingjia">#F71023</color>
+    <color name="zhiri">#F0CE32</color>
+    <color name="message">#BC2DE4</color>
+    <color name="homework">#287CEB</color>
+
+    <color name="btnp">#E2CBCB</color>
+
+</resources>

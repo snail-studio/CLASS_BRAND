@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_register"
+    tools:context=".ui.register"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"></LinearLayout>
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginBottom="15dp"
+            android:gravity="center_horizontal"
+            android:text="信息提示"
+            android:textSize="20sp"
+            android:textColor="@color/colorRed"
+            android:id="@+id/txtInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/btntext"
+            android:background="@drawable/btn_selector"
+            android:id="@+id/btnCheckin"
+            android:layout_weight="1"
+            android:text="开启考勤"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/btntext"
+            android:background="@drawable/btn_selector"
+            android:id="@+id/btnSetting"
+            android:layout_weight="1"
+            android:text="参数设置"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/btntext"
+            android:background="@drawable/btn_selector"
+            android:id="@+id/btnUpdate"
+            android:layout_weight="1"
+            android:text="软件更新"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"></LinearLayout>
+</LinearLayout>
